@@ -2,5 +2,16 @@
   color: green;
 }
 h1 {
-  color: red;
+  color: black;
+}
+article {
+  max-width: 1440px;
+  background-color: red;
+  margin: auto;
+  height: 100vh;
+}
+.inside {
+  max-width: 1024px;
+  background-color: blue;
+  margin: auto;
 }
