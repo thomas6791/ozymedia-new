@@ -1,7 +1,8 @@
 <nav>
   <div id="nav-menu">
+    <a href="" class="logo">Ozymedia</a>
     {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+      <a href="{{ item.link }}" class="nav-link" >
         {{ item.name }}
       </a>
     {% endfor %}
