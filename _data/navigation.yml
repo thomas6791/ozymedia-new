@@ -1,6 +1,10 @@
-- name: Home
+- name: Ozymedia
   link: /
-- name: About
+- name: L'agence
+  link: /about.html
+- name: Prestations
   link: /about.html
 - name: Blog
   link: /blog.html
+- name: Contact
+  link: /about.html

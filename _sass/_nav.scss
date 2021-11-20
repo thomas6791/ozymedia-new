@@ -1,0 +1,17 @@
+nav {
+  font-family: "ABeeZee";
+  width: 100%;
+  display: flex;
+  margin: auto;
+  div { width: 1024px; margin: auto; }
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 2px 15px;
+    font-size: 1em;
+  }
+  a:first-of-type {
+    font-size: 1.5em;
+    color: white;
+  }
+}
