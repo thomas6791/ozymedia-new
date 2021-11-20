@@ -10,15 +10,21 @@ h1 {
 }
 article {
   max-width: 1440px;
-  background-color: red;
+  background-color: whitesmoke;
   margin: auto;
   height: 100vh;
+  display: block;
 }
 .inside {
   max-width: 1024px;
-  background-color: blue;
+  border: solid 1px;
   margin: auto;
 }
-p, h2, h3, h4, h5, h6 {
+p, h3, h4, h5, h6 {
   font-family: "Roboto";
+  font-size:1em;
+}
+h2 { font-family: "ABeeZee"; text-align: center; }
+ul {
+  list-style: none;
 }

@@ -2,6 +2,8 @@
   background-size: cover;
   background-position: center;
   padding: 45vh 0;
+  max-width: 1440px;
+  margin: auto;
 }
 
 .banner h1 {
@@ -24,4 +26,9 @@ header {
     position: absolute;
     top: 0px;
   }
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
 }
