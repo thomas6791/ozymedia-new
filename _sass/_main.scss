@@ -1,6 +1,19 @@
 * {
   padding: 0px;
   margin: 0px;
+  box-sizing: content-box;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+html, body {
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
+body {
+  height: 100vh;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 h1 {
   color: black;
@@ -23,4 +36,23 @@ p, h3, h4, h5, h6 {
 h2 { font-family: "ABeeZee"; text-align: center; margin-bottom: 1.5em; }
 ul {
   list-style: none;
+  li {
+    width: auto;
+    img {
+      width: 100%;
+    }
+  }
+}
+.shadow {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
 }
