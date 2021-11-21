@@ -5,6 +5,22 @@
   padding: 45vh 0;
   max-width: 1440px;
   margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  .banner-text {
+    font-family: "ABeeZee";
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    h1 {
+      letter-spacing: 5px;
+      font-size: 2.5em;
+    }
+    span {
+      font-size: 0.8em;
+    }
+  }
 }
 
 .banner h1 {
