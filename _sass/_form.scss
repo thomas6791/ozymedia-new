@@ -1,0 +1,48 @@
+form {
+  font-family: "Avenir";
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  div { margin-bottom: 0.5em; }
+  input, textarea, select {
+    font-size: 1em;
+    line-height: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border: solid 1px lightgrey;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  label { display: block; }
+  .full {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .half { width: 48%; }
+  }
+  .half, input, label, textarea, select {
+    width: 100%;
+    font-family: "Avenir";
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .checkbox {
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+    appearance: auto;
+    label {
+      display: flex;
+      align-items: baseline;
+      input {
+        width: auto; margin-right: 1em;
+        -webkit-appearance: auto;
+        -moz-appearance: auto;
+        appearance: auto;
+      }
+    }
+  }
+}
