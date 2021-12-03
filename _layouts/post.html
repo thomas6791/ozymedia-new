@@ -1,7 +1,37 @@
----
-layout: default
----
-<h1>{{ page.titre }}</h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+     <link rel="stylesheet" href="../../../assets/css/styles.css">
+    <!-- For styles with static names... -->
+    <link href="{{ 'assets/css/styles.css' | relative_url }}" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    {% feed_meta %}
+    {% seo %}
+  </head>
+  <body id="post">
+    <header>
+      <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(assets/images/banner_jaguar_jungle.jpeg)";>
+        <div class="banner-text">
+          <h1>Ozymedia
+            <br>
+            <span>Agence en référencement web</span>
+          </h1>
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+      </div>
+      {% include navigation.html %}
+      {% include navmobile.html %}
+    </header>
+    <main>
+      <article class="inside">
+        <h1>{{ page.titre }}</h1>
+        <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+        {{ content }}
+      </article>
+      {% include footer.html %}
+    </main>
 
-{{ content }}
+  </body>
+</html>
