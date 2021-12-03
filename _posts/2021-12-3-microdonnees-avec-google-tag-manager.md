@@ -3,13 +3,24 @@ layout: post
 author: thomas
 titre: Comment intégrer des microdonnées avec Google Tag Manager ?
 ---
-## Installer Google Tag Manager
+## Installer un schema de microdonnées au format JSON-LD avec Google Tag Manager
+Intégrer des microdonnées sur son site permet aux moteurs de recherche et notamment à Google de mieux comprendre les informations présents sur une page et d'afficher des SERPS plus riches.
+Avec ces microdonnées il est donc possible d'améliorer son taux de clic en ayant affiché par exemple ses avis.
+### Le schema classique des microdonnées
+Les différents schemas de microdonnées selon les informations que vous voulez intégrer au format Json se trouvent sur le site [schema.org](https://schema.org/).
+On intégrera ici le format JSON-LD qui est ici plus simple à implémenter via GTM que par les Microdata.
+D'ailleurs Google a une légère préférence pour le format JSON-LD avec lequel il a davantage de facilité de lecture.
 
-## Installer un schema de base avec Google Tag Manager
+### Implémenter le schema avec GTM en intégrant des variables dynamiques
 
-## Le problème des macros et l'absence de variables dans son schema
+#### Créer quelques variables dynamiques dans Google Tag Manager
 
-### Comment résoudre le problème des macros ?
+#### Les intégrer dans son schema
+
+#### Mes variables dynamiques ne remontent pas
+
+
+## Comment résoudre le problème des macros ?
 Afin de régler le problème macro il faut à la fois intégrer l'ensemble du schema dans une variable et générer ce schema microdonnées par l'intégration de méthodes supplémentaires en fin de script.
 <pre>
   <code>
@@ -19,7 +30,7 @@ Afin de régler le problème macro il faut à la fois intégrer l'ensemble du sc
     document.getElementsByTagName('head')[0].appendChild(script);
   </code>
 </pre>
-#### Le code complet
+### Le code complet
 <pre>
   <code>
 &lt;script&gt;
