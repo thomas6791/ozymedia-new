@@ -29,7 +29,7 @@ article {
   margin: auto;
   margin-top: 2em;
 }
-p, h3, h4, h5, h6 {
+p, h3, h4, h5, h6, a {
   font-family: "Avenir";
   font-size:1em;
 }
@@ -43,6 +43,10 @@ ul {
     }
   }
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 .shadow {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
@@ -55,4 +59,26 @@ ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 15px;
+}
+#blog-list {
+  li {
+    padding: 2em 2em;
+    border-radius: 3px;
+  }
+}
+.date {
+  font-size: 0.8em;
+  color: grey;
+}
+.tag {
+  border: solid 1px;
+  display: inline-block;
+  border-radius: 15px;
+  padding: 5px 10px;
+  font-size: 0.8em;
+  color: white;
+  font-weight: bold;
+  &.data { background-color: $yellow; }
+  &.GTM { background-color: $blue;}
+  &.seo {}
 }

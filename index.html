@@ -41,7 +41,7 @@ title: Ozymedia | Agence SEO & Webmarketing à Strasbourg
   <h2>Les dernières actualités du Blog</h2>
   <ul class="grid-3">
     {% for post in site.posts limit:3 %}
-      <li>
+      <li class="shadow">
         <a href="{{ post.url }}">{{ post.titre }}</a>
       </li>
     {% endfor %}
