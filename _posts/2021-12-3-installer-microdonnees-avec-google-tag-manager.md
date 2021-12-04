@@ -1,6 +1,7 @@
 ---
 layout: post
 author: thomas
+permalink: installer-microdonnees-avec-google-tag-manager
 titre: Comment intégrer des microdonnées avec Google Tag Manager ?
 ---
 ## Installer un schema de microdonnées au format JSON-LD avec Google Tag Manager

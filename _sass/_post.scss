@@ -1,4 +1,14 @@
 #post {
+  article {
+    max-width: 940px;
+    h1 { padding: 1em 0 1em; }
+    h2:before {
+      content:"•";
+      margin-right: 5px;
+      color: $yellow;
+      font-size: 2em;
+    }
+  }
   h1, h2, h3, h4, h5, h6 {
     font-family: "ABeeZee";
   }
@@ -7,6 +17,8 @@
     margin: 0;
     padding: 0;
     margin: 0.5em 0;
+    display: flex;
+    align-items: center;
   }
   p {
     font-family: "Avenir";
