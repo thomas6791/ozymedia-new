@@ -27,7 +27,7 @@
     <main>
       <article class="inside">
         <h1>{{ page.titre }}</h1>
-        <p>Publié le {{ page.date | date: "%d/%m/%y" }}</p>
+        <p class="date">Publié le {{ page.date | date: "%d/%m/%y" }}</p>
         {{ content }}
         <p class="author">{{ page.author }}</p>
       </article>
