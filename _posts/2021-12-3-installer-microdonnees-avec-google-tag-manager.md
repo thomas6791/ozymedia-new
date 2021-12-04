@@ -12,7 +12,11 @@ Les différents schemas de microdonnées selon les informations que vous voulez 
 On intégrera ici le format JSON-LD qui est ici plus simple à implémenter via GTM que par les Microdata.
 D'ailleurs Google a une légère préférence pour le format JSON-LD avec lequel il a davantage de facilité de lecture.
 
-### Implémenter le schema avec GTM en intégrant des variables dynamiques
+### Implémenter le schema en intégrant des variables dynamiques
+Pour ajouter un schema de microdonnées avec Google Tag Manager :<br>
+1. Créez une "nouvelle balise" avec comme type de balise "HTML Personnalisée"<br>
+2. Ajoutez comme déclencheur "All Pages"
+
 
 #### Créer quelques variables dynamiques dans Google Tag Manager
 
