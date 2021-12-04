@@ -1,0 +1,19 @@
+.prestas {
+  display: flex;
+  justify-content: space-between;
+  div {
+    width: 60%;
+    p, h2 {
+      text-align: left;
+    }
+  }
+  img {
+    width : 200px;
+    height: auto;
+  }
+}
+#prestas:nth-child(even) {
+  flex-flow: row-reverse;
+  flex-direction: row-reverse;
+}
+
