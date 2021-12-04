@@ -66,6 +66,7 @@ Pour ajouter un schema de microdonnées avec Google Tag Manager :<br>
 
 
 #### Les intégrer dans son schema
+Intégrer ma variable ''EMAIL'' et ''Tel Number''
 <pre>
   <code>
   &lt;script type="application/ld+json"&gt;
@@ -83,18 +84,18 @@ Pour ajouter un schema de microdonnées avec Google Tag Manager :<br>
         "http://www.xyz.edu/students/alicejones.html",
         "http://www.xyz.edu/students/bobsmith.html"
       ],
-      "email": "mailto:<xmp>{{ EMAIL }}</xmp>",
+      "email": "mailto:&#x7B;&#x7B; EMAIL &#x7d;&#x7d;",
       "image": "janedoe.jpg",
       "jobTitle": "Professor",
       "name": "Jane Doe",
-      "telephone": "(425) 123-4567",
+      "telephone": "&#x7B;&#x7B; Tel Number &#x7d;&#x7d;",
       "url": "http://www.janedoe.com"
     }
   &lt;/script&gt;
   </code>
 </pre>
 
-#### Mes variables dynamiques ne remontent pas
+#### Problème : Mes variables dynamiques ne remontent pas !
 
 
 ## Comment résoudre le problème des macros ?
@@ -105,6 +106,17 @@ Afin de régler le problème macro il faut à la fois intégrer l'ensemble du sc
     script.type = "application/ld+json";
     script.innerHTML = JSON.stringify(data);
     document.getElementsByTagName('head')[0].appendChild(script);
+  </code>
+</pre>
+<br>
+On créer ensuite une fonction anonyme avec une variable "data" ou l'on intègre son schema de microdonnées
+<pre>
+  <code>
+    var data {
+      "@context" : "http://schema.org",
+      "@type" : "FoodEstablishment",
+      ...
+    }
   </code>
 </pre>
 ### Le code complet
