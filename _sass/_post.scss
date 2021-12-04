@@ -35,4 +35,16 @@
     font-size: 0.8em;
     color: grey;
   }
+  .tag {
+    border: solid 1px;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    color: white;
+    font-weight: bold;
+    &.data { background-color: $yellow; }
+    &.GTM { background-color: $blue;}
+    &.seo {}
+  }
 }

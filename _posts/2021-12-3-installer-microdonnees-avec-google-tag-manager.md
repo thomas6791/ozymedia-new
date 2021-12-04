@@ -1,6 +1,8 @@
 ---
 layout: post
-author: thomas
+author: Thomas Hunckler
+function : Expert SEO
+tags: ["GTM", "data"]
 permalink: installer-microdonnees-avec-google-tag-manager
 titre: Comment intégrer des microdonnées avec Google Tag Manager ?
 ---
