@@ -29,8 +29,8 @@
         <h1>{{ page.titre }}</h1>
         <p class="date">Publié le {{ page.date | date: "%d/%m/%y" }}</p>
         {{ content }}
-        {% for tag in site.tags %}
-          <p class="tag {{ tag[0] }}">#{{ tag[0] | capitalize }} </p>
+        {% for tag in page.tags %}
+          <p class="tag {{ tag }}">#{{ tag | capitalize }}</p>
         {% endfor %}
         <p class="author">{{ page.author }}</p>
       </article>

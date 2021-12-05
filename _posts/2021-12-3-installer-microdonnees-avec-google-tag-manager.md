@@ -96,9 +96,10 @@ Intégrer ma variable ''EMAIL'' et ''Tel Number''
   &lt;/script&gt;
   </code>
 </pre>
-
+#### Tester l'implémentation des microdatas
+Pour être sûr que notre intégration soit correctement interprétée par les différents moteurs de recherche, il est important de tester avec les outils de test de données structurées mis à notre disposition.
+[Outils de test](https://developers.google.com/search/docs/advanced/structured-data)
 #### Problème : Mes variables dynamiques ne remontent pas !
-
 
 ## Comment résoudre le problème des macros ?
 Afin de régler le problème macro il faut à la fois intégrer l'ensemble du schema dans une variable et générer ce schema microdonnées par l'intégration de méthodes supplémentaires en fin de script.

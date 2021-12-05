@@ -2,6 +2,7 @@
 layout: post
 author: thomas
 permalink: seo-c-est-quoi
+tags: ["seo"]
 titre: Qu'est-ce que le référencement et à quoi ça sert ?
 ---
 Le référencement ou SEO est un terme souvent connu mais dont l'utilité et le véritable objectif reste encore très obscur pour de nombreuses personnes.
