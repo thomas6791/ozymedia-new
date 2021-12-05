@@ -1,6 +1,8 @@
 .prestas {
   display: flex;
   justify-content: space-between;
+  margin-top: 3em;
+  border: solid 1px;
   div {
     width: 60%;
     p, h2 {
@@ -12,8 +14,7 @@
     height: auto;
   }
 }
-#prestas:nth-child(even) {
-  flex-flow: row-reverse;
+.prestas:nth-child(even) {
   flex-direction: row-reverse;
 }
 
