@@ -12,21 +12,28 @@
   </head>
   <body id="post">
     <header>
-      <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(/assets/images/banner_jaguar_jungle.jpeg)";>
-        <div class="banner-text">
-          <h1>Ozymedia
-            <br>
-            <span>Agence en référencement web</span>
-          </h1>
-          <a href="#contact" class="btn">Contact</a>
-        </div>
-      </div>
       {% include navigation.html %}
       {% include navmobile.html %}
+      <div class="header-post">
+        <h1 class="inside">{{page.titre}}</h1>
+        <aside class="author-share">
+          <div>
+            <img src="https://res.cloudinary.com/dpkqqbn5g/image/upload/tf3dszKZpUF5MiPobTveyVdj.jpg" alt="" class="avatar">
+            <div>
+              <p>Thomas H. <br><span>Expert SEO</span></p>
+            </div>
+          </div>
+          <div class="social-share">
+            <p>Partager cet article</p>
+            <img src="/assets/images/icones/facebook.png" alt="facebook icon" width="32" height="32">
+            <img src="/assets/images/icones/twitter.png" alt="twitter icon" width="32" height="32">
+            <img src="/assets/images/icones/linkedin.png" alt="linkedin icon" width="32" height="32">
+          </div>
+      </aside>
+      </div>
     </header>
     <main>
       <article class="inside">
-        <h1>{{ page.titre }}</h1>
         <p class="date">Publié le {{ page.date | date: "%d/%m/%y" }}</p>
         {{ content }}
         {% for tag in site.tags %}
