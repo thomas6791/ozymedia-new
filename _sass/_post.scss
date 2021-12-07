@@ -38,7 +38,9 @@
         .function { font-size: 0.8em; }
       }
       .social-share {
-        img { width: 32px; height:32px; margin-left: 0.8em;}
+        img { width: 32px; height:32px; margin-left: 0.8em;
+          &:hover { cursor: pointer; }
+        }
         p { color: grey; }
       }
       p {
