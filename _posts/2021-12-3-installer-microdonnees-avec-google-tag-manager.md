@@ -161,4 +161,4 @@ On créer ensuite une fonction anonyme avec une variable "data" ou l'on intègre
 </code>
 </pre>
 
-Source : https://moz.com/blog/using-google-tag-manager-to-dynamically-generate-schema-org-json-ld-tags
+Source : [Moz](https://moz.com/blog/using-google-tag-manager-to-dynamically-generate-schema-org-json-ld-tags)
