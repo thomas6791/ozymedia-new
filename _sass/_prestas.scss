@@ -17,6 +17,9 @@
     width : 200px;
     height: auto;
     object-fit: contain;
+    &.internation-map {
+      width: 350px;
+    }
   }
 }
 .prestas:nth-child(even) {
