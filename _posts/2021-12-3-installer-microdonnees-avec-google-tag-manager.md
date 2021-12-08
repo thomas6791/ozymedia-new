@@ -3,7 +3,7 @@ layout: post
 author: Thomas Hunckler
 function : Expert SEO
 tags: ["GTM", "seo"]
-permalink: installer-microdonnees-avec-google-tag-manager
+permalink: blog/installer-microdonnees-avec-google-tag-manager
 titre: Comment intégrer des microdonnées avec Google Tag Manager ?
 ---
 Intégrer des microdonnées ou données structurées sur son site permet aux moteurs de recherche de mieux comprendre les informations présents sur une page et d'afficher des SERP plus riches.<br>

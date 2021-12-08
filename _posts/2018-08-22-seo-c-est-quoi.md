@@ -1,7 +1,7 @@
 ---
 layout: post
 author: thomas
-permalink: seo-c-est-quoi
+permalink: blog/seo-c-est-quoi
 tags: ["seo"]
 titre: Qu'est-ce que le référencement et à quoi ça sert ?
 ---
