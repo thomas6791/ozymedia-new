@@ -41,9 +41,11 @@
     padding-left: 1em;
   }
   #post {
+    header {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
     .author-share {
-    padding-left: 10px;
-    padding-right: 10px;
     padding-top: 10px;
     }
     .social-share {
