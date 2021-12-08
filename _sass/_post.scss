@@ -24,10 +24,15 @@
       justify-content: space-between;
       max-width: 1024px;
     }
-    h1 { margin: 0; padding: 0; text-align: center; width: 100%; max-width: 940px; }
+    h1 {
+      margin: 0; padding: 0; text-align: center; width: 100%; max-width: 940px;
+      margin-bottom: 1em;
+    }
     .author-share {
       font-family: "ABeeZee" !important;
-      height: 4em;
+      height: auto;
+      //min-height: 4em;
+      padding-top: 1em;
       border-top: solid 5px $yellow;
       width: 100%;
       max-width: 940px;
