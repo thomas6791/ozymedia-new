@@ -12,13 +12,14 @@
     background: black;
   }
   header {
-    height: 400px;
+    height: auto;
     display: flex;
+    padding-top: 8em;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     .header-post {
-      height: 12em;
+      height: auto;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
