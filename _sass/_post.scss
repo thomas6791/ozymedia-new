@@ -44,6 +44,9 @@
         font-family: "ABeeZee" !important;
         display: flex;
         align-items: center;
+        p {
+          span { color: $grey; }
+        }
         .avatar {
           width: 50px; height: 50px; border-radius: 50px;
           margin-right: 0.8em;
@@ -55,7 +58,7 @@
           margin-left: 0.8em; width: 32px; height: 32px;
           img { cursor: pointer; }
         }
-        p { color: grey; }
+        p { color: $grey; }
       }
       p {
         font-family: "ABeeZee" !important;
