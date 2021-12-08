@@ -100,10 +100,11 @@
   }
   .author {
     border: solid 2px $yellow; border-radius: 2px;
-    p { font-family: "ABeeZee"; }
     width: 100%;
     padding: 1em;
     display: flex;
+    align-items: center;
+    p { font-family: "ABeeZee"; }
     .avatar {
       width: 70px;
       border-radius: 50%;
