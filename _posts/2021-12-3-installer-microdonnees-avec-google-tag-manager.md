@@ -98,6 +98,7 @@ Intégrer ma variable ''EMAIL'' et ''Tel Number''
 #### Tester l'implémentation des microdatas
 Pour être sûr que notre intégration soit correctement interprétée par les différents moteurs de recherche, il est important de tester avec les outils de test de données structurées mis à notre disposition.
 [Outils de test](https://developers.google.com/search/docs/advanced/structured-data)
+<img src="/assets/images/posts/outils-test-donnees-structurees.png" width="100%">
 #### Problème : Mes variables dynamiques ne remontent pas !
 
 ## Comment résoudre le problème des macros ?
