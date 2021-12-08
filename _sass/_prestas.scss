@@ -1,8 +1,12 @@
+#prestas {
+  max-width: 940px;
+  margin: auto;
+}
 .prestas {
   display: flex;
   justify-content: space-between;
   margin-top: 3em;
-  border: solid 1px;
+  //border: solid 1px;
   div {
     width: 60%;
     p, h2 {
@@ -12,6 +16,7 @@
   img {
     width : 200px;
     height: auto;
+    object-fit: contain;
   }
 }
 .prestas:nth-child(even) {
