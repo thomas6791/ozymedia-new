@@ -5,6 +5,12 @@
       color: black;
     }
   }
+  #menuToggle span {
+    background: black;
+  }
+  #menuToggle input:checked ~ span {
+    background: black;
+  }
   header {
     height: 400px;
     display: flex;
