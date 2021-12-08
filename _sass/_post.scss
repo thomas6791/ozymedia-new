@@ -98,4 +98,15 @@
     background-color: #FBFBFB;
     //box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   }
+  .author {
+    border: solid 2px $yellow; border-radius: 2px;
+    p { font-family: "ABeeZee"; }
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    .avatar {
+      width: 70px;
+      border-radius: 50%;
+    }
+  }
 }

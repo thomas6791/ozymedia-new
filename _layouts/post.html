@@ -47,7 +47,17 @@
         {% for tag in page.tags %}
           <p class="tag {{ tag }}">#{{ tag | capitalize }}</p>
         {% endfor %}
-        <p class="author">{{ page.author }}</p>
+        <div class="author">
+          <img src="https://res.cloudinary.com/dpkqqbn5g/image/upload/tf3dszKZpUF5MiPobTveyVdj.jpg" alt="" class="avatar">
+          <div class="
+          ">
+            <p class="">{{ page.author }}</p>
+            <p>{{ page.function }}</p>
+            <div>
+
+            </div>
+          </div>
+        </div>
       </article>
       {% include footer.html %}
     </main>
