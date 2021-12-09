@@ -54,13 +54,19 @@
             {% if author.name == page.author %}
               <p class="">{{ author.name }}</p>
               <p>{{ author.poste }}</p>
+            <div class="social">
+              <a href="{{ author.linkedin }}">
+                <img src="/assets/images/icones/linkedin-circle.png" width="25" alt="">
+              </a>
+              <a href="{{ author.github }}">
+                <img src="/assets/images/icones/github.png" width="25" alt="">
+              </a>
+              <a href="{{ author.email }}">
+                <img src="/assets/images/icones/mail.png" width="25" alt="">
+              </a>
+            </div>
             {% endif %}
           {% endfor %}
-            <div class="social">
-              <img src="/assets/images/icones/linkedin-circle.png" width="25" alt="">
-              <img src="/assets/images/icones/github.png" width="25" alt="">
-              <img src="/assets/images/icones/mail.png" width="25" alt="">
-            </div>
           </div>
         </div>
       </article>

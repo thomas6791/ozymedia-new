@@ -162,16 +162,6 @@ On créer ensuite une fonction anonyme avec une variable "data" ou l'on intègre
 &lt;/script&gt;
 </code>
 </pre>
-<ul>
-{% for author in site.data.authors %}
-  <li>
-    <a href="https://github.com/{{ member.github }}">
-      {{ author.name }}
-      {{ page.author }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
 
 
 Source : [Moz](https://moz.com/blog/using-google-tag-manager-to-dynamically-generate-schema-org-json-ld-tags)
