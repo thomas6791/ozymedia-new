@@ -49,10 +49,13 @@
         {% endfor %}
         <div class="author">
           <img src="https://res.cloudinary.com/dpkqqbn5g/image/upload/tf3dszKZpUF5MiPobTveyVdj.jpg" alt="" class="avatar">
-          <div class="
-          ">
-            <p class="">{{ page.author }}</p>
-            <p>{{ page.function }}</p>
+          <div class="">
+          {% for author in site.data.authors %}
+            {% if author.name == page.author %}
+              <p class="">{{ author.name }}</p>
+              <p>{{ author.poste }}</p>
+            {% endif %}
+          {% endfor %}
             <div class="social">
               <img src="/assets/images/icones/linkedin-circle.png" width="25" alt="">
               <img src="/assets/images/icones/github.png" width="25" alt="">

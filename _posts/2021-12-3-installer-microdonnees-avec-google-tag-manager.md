@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Thomas Hunckler
-function : Expert SEO
+poste : Expert SEO
 tags: ["GTM", "seo"]
 lang: fr
 permalink: blog/installer-microdonnees-avec-google-tag-manager
@@ -167,9 +167,11 @@ On créer ensuite une fonction anonyme avec une variable "data" ou l'on intègre
   <li>
     <a href="https://github.com/{{ member.github }}">
       {{ author.name }}
+      {{ page.author }}
     </a>
   </li>
 {% endfor %}
 </ul>
+
 
 Source : [Moz](https://moz.com/blog/using-google-tag-manager-to-dynamically-generate-schema-org-json-ld-tags)
