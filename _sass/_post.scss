@@ -123,3 +123,32 @@
     }
   }
 }
+.posts {
+  .card {
+    font-family: "ABeeZee";
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    h2 { margin-bottom: 0; min-height: 5.5em; display: flex; align-items: center; font-weight: 100; }
+    .date-published { font-size: 0.8em; color: $grey; margin-bottom: 0.2em; }
+    .card-text {
+      padding-top: 1em;
+      margin-bottom: 1em;
+      border-top: solid 3px $yellow;
+      font-family: "ABeeZee"; font-weight: 100;
+      min-height: 7em;
+    }
+    div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: "ABeeZee"; font-weight: 100;
+      img { width: 15px; margin-left: 1em; }
+      a { display: flex; align-items: center;
+        &:hover { text-decoration: underline; }
+      }
+    }
+  }
+}
