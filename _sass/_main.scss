@@ -16,7 +16,10 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 h1 {
-  color: black;
+  color: black; font-family: "ABeeZee"; font-size: 2em;
+}
+.inside {
+  h1 { text-align: center; min-height: 3em; display: flex; align-items: center; justify-content: center; }
 }
 article {
   max-width: 1440px;
