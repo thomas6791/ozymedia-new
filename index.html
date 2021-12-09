@@ -39,10 +39,22 @@ title: Ozymedia | Agence SEO & Webmarketing à Strasbourg
 </section>
 <section id="blog-list" class="inside">
   <h2>Les dernières actualités du Blog</h2>
-  <ul class="grid-3">
-    {% for post in site.posts limit:3 %}
-      <li class="shadow">
-        <a href="{{ post.url }}">{{ post.titre }}</a>
+  <ul class="grid-3 posts">
+    {% for post in site.posts %}
+      <li class="card">
+        <h2>{{ post.titre }}</h2>
+        <p class="date-published">{{ post.date | date: "%d/%m/%y" }} par {{post.author}}</p>
+        <p class="card-text">{{ post.excerpt | strip_html | strip_newlines | truncate: 156 }}</p>
+        <div>
+          <div>
+            {% for tag in post.tags %}
+              <p class="tag {{ tag }}">#{{ tag | capitalize }}</p>
+            {% endfor %}
+          </div>
+          <div>
+            <a href="{{ post.url }}">Lire la suite<img src="/assets/images/icones/chevron.png" width="10" alt=""></a>
+          </div>
+        </div>
       </li>
     {% endfor %}
   </ul>
