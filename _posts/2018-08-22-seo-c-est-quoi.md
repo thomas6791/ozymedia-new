@@ -1,6 +1,6 @@
 ---
 layout: post
-author: thomas
+author: Thomas Hunckler
 permalink: blog/seo-c-est-quoi
 tags: ["seo"]
 titre: Qu'est-ce que le référencement et à quoi ça sert ?

@@ -20,7 +20,11 @@
           <div>
             <img src="https://res.cloudinary.com/dpkqqbn5g/image/upload/tf3dszKZpUF5MiPobTveyVdj.jpg" alt="" class="avatar">
             <div>
-              <p>{{page.author}}<br><span>{{ page.poste }}</span></p>
+              {% for author in site.data.authors %}
+                {% if author.name == page.author %}
+                  <p>{{author.name}}<br><span>{{ author.poste }}</span></p>
+                {% endif %}
+              {% endfor %}
             </div>
           </div>
           <div class="social-share">
