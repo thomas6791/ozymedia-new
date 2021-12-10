@@ -63,6 +63,27 @@ titre: Créer et manipuler le datalayer avec Google Tag Manager
 ## Accéder à une variable
 
 ### Récupérer sa variable avec du javascript
+Récupérer l'array qui a pour event "monEvenementPersonnalise".
+
+{% highlight js %}
+  var array = dataLayer.filter(item => (item.event === "monEvenementPersonnalise"));
+  console.log(array);
+  //[{…}]
+  //  0:
+  //  ecommerce: {purchase: {…}}
+  //  event: "monEvenementPersonnalise"
+  //  gtm.uniqueEventId: 4
+  //  [[Prototype]]: Object
+  //  length: 1
+  //[[Prototype]]: Array(0)
+{% endhighlight %}
+
+Accéder à la valeur de location avec l'exemple ci-dessus :
+
+{% highlight js %}
+  var array = dataLayer.filter(item => (item.event === "monEvenementPersonnalise"));
+  var location = array[0].ecommerce.purchase.actionField.location;
+{% endhighlight %}
 
 ### Récupérer sa variable via GTM
 
