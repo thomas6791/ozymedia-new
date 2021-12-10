@@ -40,6 +40,17 @@ plugins:
   - jekyll-seo-tag
 
 locale: fr
+
+jekyll_admin:
+  hidden_links:
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
+  collections:
+  posts:
+    output: true
+    sidebar_label: Posts
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
