@@ -59,6 +59,13 @@ titre: Créer et manipuler un datalayer avec Google Tag Manager
 {% endhighlight %}
 
 ## Ajouter une nouvelle variable à son DataLayer
+Si la variable déclarée n'existe pas à l'emplacement voulu, celle-ci y est ajoutée
+{% highlight js %}
+<script>
+  dataLayer = window.dataLayer || [];
+  dataLayer.push({'ecommerce':{'purchase' :{ 'actionField' :{'newitem': 'my new value'}}}});
+</script>
+{% endhighlight %}
 
 ## Accéder à une variable
 
