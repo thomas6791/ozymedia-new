@@ -90,7 +90,7 @@ titre: Créer et manipuler le datalayer avec Google Tag Manager
 
 ### Récupérer sa variable via GTM
 
-## Modifier les variables de son DataLayer
+## Modifier les valeurs de son DataLayer
 On souhaite mettre à jour la valeur "Bristol" dans notre DataLayer par "New York"
 Dans une balise HTML de GTM on intègre le script suivant
 {% highlight js %}
