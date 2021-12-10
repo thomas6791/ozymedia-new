@@ -11,7 +11,7 @@ titre: Créer et manipuler un datalayer avec Google Tag Manager
 ## Créer un Datalayer ou accéder au DataLayer existant {#creer-datalyer}
 {% highlight js %}
 <script>
-  window.dataLayer = window.dataLayer || [];
+  dataLayer = window.dataLayer || [];
   console.log(datalayer); // visualiser dans la console son dataLayer
 </script>
 {% endhighlight %}
@@ -19,9 +19,9 @@ titre: Créer et manipuler un datalayer avec Google Tag Manager
 ### Exemple de dataLayer Ecommerce
 {% highlight js %}
 <script>
-  window.dataLayer = window.dataLayer || [];
+  dataLayer = window.dataLayer || [];
   dataLayer.push({
-    'event': 'ecommerce',
+    'event': 'myevent', // mise en place de mon événement
     "ecommerce": {
       "purchase": {
         "actionField": {
@@ -53,12 +53,13 @@ titre: Créer et manipuler un datalayer avec Google Tag Manager
 ## Pousser un événement personnalisé dans son DataLayer
 {% highlight js %}
 <script>
-  window.dataLayer = window.dataLayer || [];
-  dataLayer.push({'event': 'monEvenementPersonnalise'});
+  dataLayer = window.dataLayer || [];
+  dataLayer.push({'event': 'mynewEvent'});
 </script>
 {% endhighlight %}
+
 On peut maintenant utiliser cet évenement comme trigger(déclencheur)
-// Capture d'écran
+<img src="/assets/images/posts/articles/declencheur-personnalise-gtm.jpg" width="100%">
 ## Ajouter une nouvelle variable à son DataLayer
 Si la variable déclarée n'existe pas à l'emplacement voulu, celle-ci y est ajoutée
 {% highlight js %}
@@ -70,7 +71,7 @@ Si la variable déclarée n'existe pas à l'emplacement voulu, celle-ci y est aj
 
 Ce qui donne :
 {% highlight js %}
-  window.dataLayer = window.dataLayer || [];
+  dataLayer = window.dataLayer || [];
   dataLayer.push({
     'event': 'monEvenementPersonnalise',
     "ecommerce": {
