@@ -11,8 +11,8 @@ titre: Créer et manipuler le datalayer avec Google Tag Manager
 ## Créer un Datalayer ou accéder ou DataLayer existant {#creer-datalyer}
 {% highlight js %}
   <script>
-  window.dataLayer = window.dataLayer || [];
-  console.log(datalayer); // visualiser dans la console son dataLayer
+    window.dataLayer = window.dataLayer || [];
+    console.log(datalayer); // visualiser dans la console son dataLayer
   </script>
 {% endhighlight %}
 
@@ -23,30 +23,6 @@ titre: Créer et manipuler le datalayer avec Google Tag Manager
   dataLayer.push({
     'event': 'monEvenementPersonnalise',
     "ecommerce": {
-      "purchase": {
-        "actionField": {
-          "id": "123456",
-          "affiliation": "Outdoor Adventure Park",
-          "revenue": "29.98",
-          "location": "Bristol" // Our custom purchase attribute
-        },
-        "products": [{
-          "name": "Quad Biking",
-          "id": "15727899",
-          "category": "Vehicle Track",
-          "price": "14.99",
-          "quantity": "1"
-        },
-        {
-          "name": "Clay Pigeons",
-          "id": "16682710",
-          "category": "Shooting Range",
-          "price": "14.99",
-          "quantity": "1"
-        }]
-      }
-    },
-    "ecommerce - version 2": {
       "purchase": {
         "actionField": {
           "id": "123456",
@@ -94,7 +70,7 @@ titre: Créer et manipuler le datalayer avec Google Tag Manager
 On souhaite mettre à jour la valeur "Bristol" dans notre DataLayer par "New York"
 Dans une balise HTML de GTM on intègre le script suivant
 {% highlight js %}
-  <script>
-    dataLayer.push({'ecommerce - version 2':{'purchase' :{ 'actionField' :{'location': "New York"}}}});
+<script>
+    dataLayer.push({'ecommerce':{'purchase' :{ 'actionField' :{'location': "New York"}}}});
 </script>
 {% endhighlight %}
