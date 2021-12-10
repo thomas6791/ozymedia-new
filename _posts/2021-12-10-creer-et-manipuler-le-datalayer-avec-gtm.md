@@ -87,6 +87,16 @@ Accéder à la valeur de location avec l'exemple ci-dessus :
 
 ### Récupérer sa variable via GTM
 
+Pour récupérer les données souhaitées via Google Tag Manager on peut soit définir une variable avec du Javascript personnalisé ou en utilisant les variables de couche de données.
+
+#### Récupérer via les variables de couche de données
+Pour par exemple stocker le nom du second produit(Clay Pigeons) de notre dataLayer dans une variable dlv - productName par exemple.
+{% highlight js %}
+ecommerce.purchase.products.1.name
+{% endhighlight %}
+
+#### Utiliser une variable de javascript personnalisée
+
 ## Modifier les valeurs de son DataLayer
 On souhaite mettre à jour la valeur "Bristol" dans notre DataLayer par "New York"
 Dans une balise HTML de GTM on intègre le script suivant
