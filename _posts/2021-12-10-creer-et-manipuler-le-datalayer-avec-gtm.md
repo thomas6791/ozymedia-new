@@ -71,6 +71,6 @@ On souhaite mettre à jour la valeur "Bristol" dans notre DataLayer par "New Yor
 Dans une balise HTML de GTM on intègre le script suivant
 {% highlight js %}
 <script>
-    dataLayer.push({'ecommerce':{'purchase' :{ 'actionField' :{'location': "New York"}}}});
+  dataLayer.push({'ecommerce':{'purchase' :{ 'actionField' :{'location': "New York"}}}});
 </script>
 {% endhighlight %}
