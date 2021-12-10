@@ -21,14 +21,14 @@ titre: Créer et manipuler un datalayer avec Google Tag Manager
 <script>
   window.dataLayer = window.dataLayer || [];
   dataLayer.push({
-    'event': 'monEvenementPersonnalise',
+    'event': 'ecommerce',
     "ecommerce": {
       "purchase": {
         "actionField": {
           "id": "123456",
           "affiliation": "Outdoor Adventure Park",
           "revenue": "29.98",
-          "location": "Bristol" // Our custom purchase attribute
+          "location": "Bristol"
         },
         "products": [{
           "name": "Quad Biking",
@@ -67,6 +67,22 @@ Si la variable déclarée n'existe pas à l'emplacement voulu, celle-ci y est aj
 </script>
 {% endhighlight %}
 
+Ce qui donne :
+{% highlight js %}
+  window.dataLayer = window.dataLayer || [];
+  dataLayer.push({
+    'event': 'monEvenementPersonnalise',
+    "ecommerce": {
+      "purchase": {
+        "actionField": {
+          "id": "123456",
+          "affiliation": "Outdoor Adventure Park",
+          "revenue": "29.98",
+          "location": "Bristol",
+          "newitem": "my new value" // Notre nouvelle valeur se trouve dans l'objet purchase
+        },
+        ...
+{% endhighlight %}
 ## Accéder à une variable
 
 ### Récupérer sa variable avec du javascript
