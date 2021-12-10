@@ -41,6 +41,20 @@ plugins:
 
 locale: fr
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      title: ""
+      titre: ""
+      lang: "fr"
+      permalink: ""
+      author: ""
+
+
 jekyll_admin:
   hidden_links:
     - staticfiles
@@ -51,6 +65,13 @@ jekyll_admin:
   posts:
     output: true
     sidebar_label: Posts
+    values:
+      layout: "post"
+      title: ""
+      titre: ""
+      lang: "fr"
+      permalink: ""
+      author: ""
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
