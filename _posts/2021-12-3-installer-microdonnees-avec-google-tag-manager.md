@@ -150,8 +150,8 @@ On créer ensuite une fonction anonyme avec une variable "data" ou l'on intègre
       },
       "contactPoint" : [
         { "@type" : "ContactPoint",
-          "telephone" : "{{TEL NUMBER}}",
-          "email" : "mail_to:{{EMAIL}}",
+          "telephone" : "&#x7B;&#x7B;TEL NUMBER&#x7d;&#x7d;",
+          "email" : "mail_to:&#x7B;&#x7B;EMAIL&#x7d;&#x7d;",
           "contactType" : "customer service"
         } ]
     }

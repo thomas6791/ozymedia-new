@@ -124,12 +124,28 @@ ecommerce.purchase.products.1.name
 {% endhighlight %}
 
 #### Utiliser une variable de javascript personnalisée
+Pour récupérer la *localisation* de l'élément *actionField*, il nous faut d'abord créer une variable de couche de données pour nous faciliter un peu le travail.
+<br>Je créer donc une variable de couche de données plutôt simple en récupérant uniquement les données ecommerce > purchase du DataLayser.<br>
+Je nomme cette variable : *dlv - ecommerce purchase datas*
+{% highlight js %}
+ecommerce.purchase
+{% endhighlight %}
+<br>
+A présent je créer une variable Javascript Personnalisée que je nomme *dlv - purchase location*.
+<pre>
+  <code>
+  function(){
+    return &#x7B;&#x7B;dlv - ecommerce purchase datas&#x7d;&#x7d;.actionField.location;
+  }
+  </code>
+</pre>
+
 
 ## Modifier les valeurs de son DataLayer
 On souhaite mettre à jour la valeur "Bristol" dans notre DataLayer par "New York"
 Dans une balise HTML de GTM on intègre le script suivant
 {% highlight js %}
 <script>
-  dataLayer.push({'ecommerce':{'purchase' :{ 'actionField' :{'location': "New York"}}}});
+  dataLayer.push({'ecommerce':{'purchase':{ 'actionField':{'location':"New York"}}}});
 </script>
 {% endhighlight %}
