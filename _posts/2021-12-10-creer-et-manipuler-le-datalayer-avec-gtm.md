@@ -8,7 +8,7 @@ permalink: blog/creer-et-manipuler-un-datalayer-avec-gtm
 title: Créer et manipuler un datalayer avec Google Tag Manager
 titre: Créer et manipuler un datalayer avec Google Tag Manager
 ---
-## Créer un Datalayer ou accéder ou DataLayer existant {#creer-datalyer}
+## Créer un Datalayer ou accéder au DataLayer existant {#creer-datalyer}
 {% highlight js %}
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -90,7 +90,7 @@ Accéder à la valeur de location avec l'exemple ci-dessus :
 Pour récupérer les données souhaitées via Google Tag Manager on peut soit définir une variable avec du Javascript personnalisé ou en utilisant les variables de couche de données.
 
 #### Récupérer via les variables de couche de données
-Pour par exemple stocker le nom du second produit(Clay Pigeons) de notre dataLayer dans une variable dlv - productName par exemple.
+Pour par exemple stocker le nom du second produit(Clay Pigeons) de notre dataLayer dans une variable "dlv - productName".
 {% highlight js %}
 ecommerce.purchase.products.1.name
 {% endhighlight %}
