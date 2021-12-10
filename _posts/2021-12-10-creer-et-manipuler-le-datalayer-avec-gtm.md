@@ -57,7 +57,8 @@ titre: Créer et manipuler un datalayer avec Google Tag Manager
   dataLayer.push({'event': 'monEvenementPersonnalise'});
 </script>
 {% endhighlight %}
-
+On peut maintenant utiliser cet évenement comme trigger(déclencheur)
+// Capture d'écran
 ## Ajouter une nouvelle variable à son DataLayer
 Si la variable déclarée n'existe pas à l'emplacement voulu, celle-ci y est ajoutée
 {% highlight js %}
