@@ -3,6 +3,6 @@
 - name: Prestations
   link: /prestations.html
 - name: Blog
-  link: /blog.html
+  link: /blog/
 - name: Contact
   link: /about.html
