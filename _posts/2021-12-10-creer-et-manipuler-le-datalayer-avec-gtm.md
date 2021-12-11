@@ -12,7 +12,7 @@ Accéder aux différentes variables de son DataLayer, en créer ou les modifier 
 ## Créer un Datalayer ou accéder au DataLayer existant {#creer-datalyer}
 {% highlight js %}
 <script>
-  dataLayer = window.dataLayer || [];
+  window.dataLayer = window.dataLayer || [];
   console.log(datalayer); // visualiser dans la console son dataLayer
 </script>
 {% endhighlight %}
@@ -20,7 +20,7 @@ Accéder aux différentes variables de son DataLayer, en créer ou les modifier 
 ### Exemple de dataLayer Ecommerce
 {% highlight js %}
 <script>
-  dataLayer = window.dataLayer || [];
+  window.dataLayer = window.dataLayer || [];
   dataLayer.push({
     'event': 'myevent', // mise en place de mon événement
     "ecommerce": {
@@ -54,7 +54,7 @@ Accéder aux différentes variables de son DataLayer, en créer ou les modifier 
 ## Pousser un événement personnalisé dans son DataLayer
 {% highlight js %}
 <script>
-  dataLayer = window.dataLayer || [];
+  window.dataLayer = window.dataLayer || [];
   dataLayer.push({'event': 'mynewEvent'});
 </script>
 {% endhighlight %}
@@ -68,14 +68,14 @@ On peut maintenant utiliser cet évenement comme trigger(déclencheur)
 Si la variable déclarée n'existe pas à l'emplacement voulu, celle-ci y est ajoutée
 {% highlight js %}
 <script>
-  dataLayer = window.dataLayer || [];
+  window.dataLayer = window.dataLayer || [];
   dataLayer.push({'ecommerce':{'purchase' :{ 'actionField' :{'newitem': 'my new value'}}}});
 </script>
 {% endhighlight %}
 
 Ce qui donne :
 {% highlight js %}
-  dataLayer = window.dataLayer || [];
+  window.dataLayer = window.dataLayer || [];
   dataLayer.push({
     'event': 'monEvenementPersonnalise',
     "ecommerce": {
