@@ -1,12 +1,6 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-     <link rel="stylesheet" href="../../../assets/css/styles.css">
-    <!-- For styles with static names... -->
-    <link href="{{ 'assets/css/styles.css' | relative_url }}" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -15,6 +9,12 @@
       })(window,document,'script','dataLayer','GTM-NSJKMRR');
     </script>
     <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+     <link rel="stylesheet" href="../../../assets/css/styles.css">
+    <!-- For styles with static names... -->
+    <link href="{{ 'assets/css/styles.css' | relative_url }}" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     {% feed_meta %}
     {% seo %}
   </head>
