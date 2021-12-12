@@ -18,7 +18,12 @@ sites ayant les urls à la racine
 Intégrer différents répertoires dans nos urls permet de conserver une structure en silo et d'espérer obtenir un petit bonus en terme de SEO.\
 Cependant conserver cette structure d'url peut générer certains problèmes.
 #### Le problème du Duplicate Content
-En ayant des urls d'article ou de fiche produit qui intègre les différents répertoires que l'on parcoure le plus souvent pour y accéder, on peut générer des problèmes de duplicate content.\
+En ayant des urls d'article de blog ou de fiche produit qui intègre les différents répertoires que l'on parcoure le plus souvent pour y accéder, on peut générer des problèmes de duplicate content.\
+Ci-dessous un exemple de site ayant créer différents répertoires souhaitant se positionner sur les mots-clés suivants:\
+- canapes, vol :
+- canapes convertibles, vol :
+- canapes 3 places, vol:
+- canapes en velours : vol:
 \
 <img src="/assets/images/posts/articles/canapes-url-racine.png" width="100%">
 Dans notre exemple, nous avons donc un produit strictement identique situé dans différents répertoires avec à chaque fois une url différente. Nous sommes ici dans un cas classique de DUST(Duplicate Url Same Text).
