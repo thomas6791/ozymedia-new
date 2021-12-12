@@ -40,7 +40,7 @@ Intéressant pour un site dont la structure est encore instable ou dont le catal
 Avoir une url à la racine
 
 
-## Exemples de site avec des urls à la racine
+## Exemples de sites avec des urls à la racine
 made.com
 
 ## En fin de compte, faut-il mettre son url à la racine ?...ça dépend
