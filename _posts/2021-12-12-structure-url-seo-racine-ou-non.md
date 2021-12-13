@@ -35,10 +35,11 @@ Le problème du Duplicate Content réside dans le fait que si on copie quasiment
 Mais le problème ne s'arrête pas forcément à la simple gestion du duplicate content. Un problème d'erreurs 404 et de redirections peut subvenir si l'on choisi de déplacer une fiche produit d'un répertoire ou si l'on décide de supprimer un répertoire entier avec les produits qui y sont liés.
 
 ### Des urls à la racine du site
-Dans une architecture de navigation où les urls seraient à la racine du site, nous auriont cette configuration suivante.
-img\
+Dans une architecture de navigation où les urls seraient à la racine du site, nous aurions ce type de configuration suivante.\
+<img src="/assets/images/posts/articles/canapes-url-racine2.jpeg" width="100%">
 L'url de notre fiche produit se trouve à la racine du site et notre fiche produit se trouve dans plusieurs répertoire différents.
-Dans ce cas, notre fiche produit ne génère pas de problème de duplicate content et nécessite un travail beaucoup moins lourd en matière de redirection d'url.
+Lorsque l'on clique sur notre canapé dans les différents répertoires, nous accédons à notre unique fiche produit.
+Dans ce cas, notre fiche produit ne génère pas de problème de duplicate content et nécessite un travail beaucoup moins lourd en matière de redirection d'url ou de mise en place d'urls canoniques.
 ## Avantages d'avoir une url à la racine
 Intéressant pour un site dont la structure est encore instable ou dont le catalogue produit est encore en construction.
 ## Inconvénients d'une url à la racine
