@@ -48,12 +48,12 @@ Dans une architecture de navigation où les urls seraient à la racine du site, 
 L'url de notre fiche produit se trouve à la racine du site et notre fiche produit se trouve dans plusieurs répertoire différents.
 Lorsque l'on clique sur notre canapé dans les différents répertoires, nous accédons à notre unique fiche produit avec à chaque fois la même url.
 Dans ce cas, notre fiche produit ne génère pas de problème de duplicate content et nécessite un travail beaucoup moins lourd en matière de redirection d'url ou de mise en place d'urls canoniques.
-## Avantages d'avoir l'url finale à la racine
+#### Avantages d'avoir l'url finale à la racine
 Avoir des urls à la racine de son site permet de bénéficier de certains avantage par rapport à une structure intégrant les répertoires.\
 Tout d'abord, cela réduit les problèmes de Duplicate Content. Nous l'avons vu avant, une fiche produit à la racine du site qui serait dans plusieurs répertoires différents(catégorie produit, soldes, nouveautés,...) n'entraîne pas la génération de contenu dupliqué.\
 Avoir des urls finales à la racine est notamment intéressant pour les sites dans le catalogue ou la structure d'arborescence n'est pas encore clairement définies et où des produits pourraient changer de catégorie produit au fil du temps.\
 Enfin, même si cela est plutôt lié à l'UX, les urls sont plus simples à retenir.
-## Inconvénients d'une url finale à la racine
+#### Inconvénients d'une url finale à la racine
 Avoir une url à la racine
 L'arborescence est moins explicite car on indique pas les silos de notre site
 L'impossibilité de parcourir directement l'arborescence en supprimant une partie de l'url.
