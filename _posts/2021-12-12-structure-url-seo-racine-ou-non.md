@@ -63,7 +63,7 @@ On ne peut créer des segments de notre site que l'on peut ensuite analyser en p
 
 ## Exemples de sites avec des urls à la racine
 
-## En fin de compte, faut-il mettre son url à la racine ?...ça dépend
+## En fin de compte, quand faut-il mettre son url à la racine ?
 Le choix de la mise en place des urls à la racine de son site ou non dépend de plusieurs paramètres.
 Tout d'abord il faut donc se poser la question si ma page peut se retrouver dans plusieurs répertoires différents ou non, par exemple une page catégorie produit ou une thématique pour un article de blog qui aurait plusieurs tags.
 Dans le cas ou la page se retrouve(ra) dans plusieurs pages différentes :
