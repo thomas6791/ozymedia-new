@@ -8,12 +8,15 @@ permalink: blog/structure-url-seo-racine-ou-non
 title: Url finale à la racine du site, dans quels cas ?
 titre: Url finale à la racine du site, dans quels cas ?
 ---
+Lors de la conception de son site, il peut arriver le cas où l'on se pose la question de l'intérêt d'avoir des **urls à la racine de son site** ou non et surtout dans quel cas ?\
+D'ailleurs, certains CMS comme Prestashop ou Magento mettent en place les produits directement à la racine du site.\
+D'un point de vue SEO, cela peut entraîner des avantages et des inconvénients dans son référencement.
 ## Est-ce qu'une url à la racine a moins de chance d'être bien positionée ?
 silos thématique\
 poids de l'url en SEO\
 sites ayant les urls à la racine
 ### Le poids des termes dans l'url
-
+Le termes ou mots-clés présents dans les urls ont aujourd'hui très peu de poids dans le référencement des pages...
 ## Url à la racine ou incluant différents répertoires ?
 ### Les urls incluant des répertoires
 Intégrer différents répertoires dans nos urls permet de conserver une structure en silo et d'espérer obtenir un petit bonus en terme de SEO.\
@@ -59,7 +62,6 @@ On ne peut créer des segments de notre site que l'on peut ensuite analyser en p
 
 
 ## Exemples de sites avec des urls à la racine
-made.com
 
 ## En fin de compte, faut-il mettre son url à la racine ?...ça dépend
 Le choix de la mise en place des urls à la racine de son site ou non dépend de plusieurs paramètres.
