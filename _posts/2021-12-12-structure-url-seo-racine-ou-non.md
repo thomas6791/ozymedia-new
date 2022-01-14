@@ -16,11 +16,16 @@ silos thématique\
 poids de l'url en SEO\
 sites ayant les urls à la racine
 ### Le poids des mots-clés dans l'url
-Le termes ou mots-clés présents dans les urls ont aujourd'hui très peu de poids dans le référencement des pages...
+La présence de mots-clés présents dans les urls ont aujourd'hui très peu de poids dans le référencement des pages mais ces derniers peuvent toutefois jouer un rôle.\
+Il est préférable de travailler ces urls pour qu'elles soient compréhensibles et mémorisables pour les internautes et les moteurs de recherche.\
+On pourrait donc travailler ses urls afin d'intégrer certains répertoires afin d'obtenir une url bien descriptive.\
+Il faut donc les travailler à minima et le plus naturellement possible sans tomber dans la sur suroptimisation sans espérer de réels gains.\
+Mais à niveau égal de qualité, cela peut jouer un rôle.
 ## Url à la racine ou incluant différents répertoires ?
 ### Les urls incluant des répertoires
 Intégrer différents répertoires dans nos urls permet de conserver une structure en silo et d'espérer obtenir un petit bonus en terme de SEO.\
-Cependant conserver cette structure d'url peut générer certains problèmes tel que le duplicate content.
+Cependant conserver cette structure d'url peut générer certains problèmes tel que le duplicate content.\
+Il est préférable de conserver les répertoires dans ses urls pour les pages catégories qui ne se retrouveront jamais dans plusieurs catégories.
 ### Le problème du Duplicate Content
 En ayant des urls d'article de blog ou de fiche produit qui intègre les répertoires permettant d'arriver à l'url finale, on peut générer des problèmes de duplicate content.\
 L'exemple qui suit permet de visualiser un site avec plusieurs catégories produits mais avec un produit similaire.\
