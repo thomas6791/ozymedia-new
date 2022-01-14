@@ -15,7 +15,7 @@ D'un point de vue SEO, cela peut entraîner des avantages et des inconvénients 
 silos thématique\
 poids de l'url en SEO\
 sites ayant les urls à la racine
-### Le poids des termes dans l'url
+### Le poids des mots-clés dans l'url
 Le termes ou mots-clés présents dans les urls ont aujourd'hui très peu de poids dans le référencement des pages...
 ## Url à la racine ou incluant différents répertoires ?
 ### Les urls incluant des répertoires
