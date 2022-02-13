@@ -5,16 +5,16 @@ poste : Expert SEO
 tags: ["GTM", "seo"]
 lang: fr
 permalink: blog/installer-microdonnees-avec-google-tag-manager
-title: Comment intégrer des microdonnées avec Google Tag Manager ?
-titre: Comment intégrer des microdonnées avec Google Tag Manager ?
+title: Comment intégrer des données structurées avec Google Tag Manager ?
+titre: Comment intégrer des données structurées avec Google Tag Manager ?
 ---
-Intégrer des microdonnées ou données structurées sur son site permet aux moteurs de recherche de mieux comprendre les informations présents sur une page et d'afficher des SERP plus riches.<br>
+Intégrer des **données structurées** ou microdonnées sur son site permet aux moteurs de recherche de mieux comprendre les informations présents sur une page et d'afficher des SERP plus riches.<br>
 Le problème est que les responsables marketing ont rarement les compétences ou la main pour intégrer un script directement sur leur site ou pour installer un module qui ne donne pas toujours les résultats escomptés.<br>
-Une des solutions pouvant les aider est d'utiliser **Google Tag Manager pour ajouter leurs microdonnées**.<br>
+Une des solutions pouvant les aider est d'utiliser **Google Tag Manager pour ajouter leurs données structurées**.<br>
 <br>
 Leur intégration permet à la fois d'améliorer la compréhension de vos contenus par Google et autres moteurs pouvant améliorer le classement des pages, d'occuper un peu plus l'espace dans les résultats et d'attirer davantage l'oeil de l'internaute en affichant les fameux **Rich Results** ou Résultats Enrichis par exemple l'affichage de photos, d'avis ou le prix de sa page produit. L'ensemble de ces éléments augmentent ainsi les chances d'améliorer son classement et le taux de clic de ses pages.
-## Installer un schema de microdonnées au format JSON-LD avec Google Tag Manager
-### Le schema classique des microdonnées
+## Installer un schema de données structurées au format JSON-LD avec Google Tag Manager
+### Le schema classique des données structurées
 Les différents schemas de microdonnées selon les informations que vous voulez intégrer au format Json se trouvent sur le site [schema.org](https://schema.org/).
 On intégrera ici le format JSON-LD qui est ici plus simple à implémenter via GTM que par les Microdata.
 D'ailleurs Google a une légère préférence pour le format JSON-LD avec lequel il a davantage de facilité de lecture.
