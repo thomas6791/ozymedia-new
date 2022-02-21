@@ -1,7 +1,9 @@
 - name: L'agence
-  link: /about.html
+  link: /agence-webmarketing
 - name: Prestations
   link: /prestations.html
+- name: Nos consultants
+  link: /consultants/
 - name: Blog
   link: /blog/
 - name: Contact
