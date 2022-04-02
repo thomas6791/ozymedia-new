@@ -25,6 +25,7 @@ les requêtes où l'on cherche un service avec une localisation précise.
 On pourra penser à par exemple "location gîte Bordeaux", une requête avec une intention claire et précise et souhaitant obtenir des résultats avec une localisation bien précise.
 Avec ce genre de requête on obtient donc les résultats du pack local et des sites ayant travaillés leur référencement sur cette requête.
 
+## Intervention de BERT ou MUM ?
 
 ## Les potentiels facteur de ranking dans ces requêtes
 - La localisation de l'appareil de l'internaute
@@ -32,4 +33,6 @@ Avec ce genre de requête on obtient donc les résultats du pack local et des si
 - La pertinence de la page par rapport à la requête recherchée
 - Les signaux locaux? Liens, fiche Google My Business
 - La présence du NAP ?
+
+
 
