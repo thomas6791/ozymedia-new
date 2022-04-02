@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Thomas Hunckler
-permalink: blog/serps-de-plus-en-plus-local-dans-google
+permalink: blog/serps-de-plus-en-plus-locales-dans-google
 tags: ["seo"]
 title: Des SERPS de plus en plus locales dans Google
 titre: Des SERPS de plus en plus locales dans les résultats de Google
