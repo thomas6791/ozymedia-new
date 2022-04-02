@@ -27,12 +27,21 @@ les requêtes où l'on cherche un service avec une localisation précise.
 On pourra penser à par exemple "location gîte Bordeaux", une requête avec une intention claire et précise et souhaitant obtenir des résultats avec une localisation bien précise.
 Avec ce genre de requête, on obtient donc les résultats du pack local et des sites ayant travaillés leur référencement sur cette requête.
 
-## Les potentiels facteur de ranking dans ces requêtes
+## Vers un SEO "Glocal" ?
+Ces nouveaux résultats que propose Google nous interroge sur un travail SEO à mener pour récupérer davantage de trafic en fonction de ces requêtes "glocal".
+Une stratégie en seo local ne serait donc plus uniquement orientée vers le positionnement dans le pack local ou de pages répondant à des requêtes "service + ville" mais à un travail de son référencement en fonction des données marketing que peuvent nous donner certains outils.
+
+## Comment estimer son marché pour travailler au mieux son SEO ?
+La première manière pour estimer son potentiel marché et celle la plus simple est l'utilisation de n'importe quel outil tel SEMRUSH ou Ubersuggest pour obtenir son volume de recherche. \
+Il suffit ensuite d'appliquer la formule : Volume de recherche * (Population de la ville / Population du pays)
+
+## Les potentiels facteurs de ranking dans ces requêtes
 - La localisation de l'appareil de l'internaute
 - La présence de microdonnées géolocalisées
 - La pertinence de la page par rapport à la requête recherchée
 - Les signaux locaux? Liens, fiche Google My Business
 - La présence du NAP ?
+
 
 
 
