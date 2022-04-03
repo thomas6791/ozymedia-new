@@ -30,7 +30,8 @@ Avec ce genre de requête, on obtient donc les résultats du pack local et des s
 
 ## Vers un SEO "Glocal" ?
 Ces nouveaux résultats que propose Google nous interroge sur un travail SEO à mener pour récupérer davantage de trafic en fonction de ces requêtes "Glocales". \
-Une stratégie en seo local ne serait donc plus uniquement orientée vers le positionnement dans le pack local ou de pages répondant à des requêtes "service + ville" mais à un travail de son référencement en fonction des données marketing que peuvent nous donner certains outils.
+Une stratégie en seo local ne serait donc plus uniquement orientée vers le positionnement dans le pack local ou de pages répondant à des requêtes "service + ville" mais à un travail orientée en fonction des données marketing que peuvent nous donner certains outils. \
+
 
 ## Comment estimer son marché pour travailler au mieux son SEO ?
 La première manière pour estimer son potentiel marché et celle la plus simple est l'utilisation de n'importe quel outil tel SEMRUSH ou Ubersuggest pour obtenir son volume de recherche. \
@@ -43,6 +44,9 @@ On peut également utiliser les fonctionnalités qu'offre Google Ads pour estime
 - La pertinence de la page par rapport à la requête recherchée
 - Les signaux locaux? Liens, fiche Google My Business
 - La présence du NAP ?
+
+## Une évolution du SEO Local bienvenue.
+Ce genre d'évolution semble la bienvenue surtout concernant les requêtes "service + ville" qui je trouve est un SEO Local un peu lourdo selon moi. En tout cas dans la situation où l'on vise les internautes de l'agglomération visée. Au contraire elles sont pertinentes lorsqu'on prépare un voyage ou qu'on arrive dans une ville que l'on ne connaît pas. Ce genre de requêtes locales peu pertinentes dans le contexte cité peuvent moins bien trasnformer que la pack local qui bénéficie tout de même d'un positionnement et d'éléments d'affichages plus utiles pour l'internaute.
 
 
 
