@@ -86,6 +86,9 @@
           {% endfor %}
           </div>
         </div>
+        {% if page.comments %}
+        {% include comments.html%}
+        {% endif %}
       </article>
       {% include footer.html %}
     </main>

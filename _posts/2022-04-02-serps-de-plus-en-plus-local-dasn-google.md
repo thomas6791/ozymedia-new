@@ -1,12 +1,13 @@
 ---
 layout: post
 author: Thomas Hunckler
-poste : Expert SEO
+poste : Consultant SEO
 tags: ["seo"]
 lang: fr
 permalink: blog/serps-de-plus-en-plus-locales-dans-google
 title: Des SERPS de plus en plus locales dans Google
 titre: Des SERPS de plus en plus locales dans les résultats de Google
+comments: true
 ---
 Depuis peu, on observe des changements dans les SERPS de Google lorsqu'on rentre une requête avec une intention de recherche plus ou moins locale. \
 Longtemps cantonnée au pack local ou aux requêtes avec une localisation clairement énoncée lorsqu'on rentrait une requête, les SERPS de Google semblent évoluer en intégrant davantage la localisation de l'internaute pour lui proposer une réponse encore plus pertinente. \

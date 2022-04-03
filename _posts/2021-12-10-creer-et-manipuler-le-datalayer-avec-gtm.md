@@ -1,12 +1,13 @@
 ---
 layout: post
 author: Thomas Hunckler
-poste : Expert SEO
+poste : Consultant SEO
 tags: ["GTM"]
 lang: fr
 permalink: blog/creer-et-manipuler-un-datalayer-avec-gtm
 title: Créer et manipuler un datalayer avec Google Tag Manager
 titre: Créer et manipuler un datalayer avec Google Tag Manager
+comments: true
 ---
 Accéder aux différentes variables de son DataLayer, en créer ou les modifier peut s'avérer assez compliqué surtout si on utilises Google Tag Manager. Voici une liste d'exemples pour mieux l'utiliser.
 ## Créer un Datalayer ou accéder au DataLayer existant {#creer-datalyer}
