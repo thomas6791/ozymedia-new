@@ -35,7 +35,7 @@ Une stratégie en seo local ne serait donc plus uniquement orientée vers le pos
 ## Comment estimer son marché pour travailler au mieux son SEO ?
 La première manière pour estimer son potentiel marché et celle la plus simple est l'utilisation de n'importe quel outil tel SEMRUSH ou Ubersuggest pour obtenir son volume de recherche. \
 Il suffit ensuite d'appliquer la formule : Volume de recherche * (Population de la ville / Population du pays).
-On peut également utiliser les fonctionnalités qu'offre Google Ads pour estimer le
+On peut également utiliser les fonctionnalités qu'offre Google Ads pour estimer son potentiel de trafic que l'on peut récupérer.
 
 ## Les potentiels facteurs de ranking dans ces requêtes
 - La localisation de l'appareil de l'internaute
