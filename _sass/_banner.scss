@@ -3,10 +3,11 @@
   background-position: center;
   background-position-y: -4rem;
   padding: 30vh 0;
-  max-width: 1440px;
+  //max-width: 1440px;
   margin: auto;
   display: flex;
   justify-content: flex-start;
+  flex-direction:column;
   .banner-text {
     font-family: "ABeeZee";
     max-width: 1024px;
@@ -19,6 +20,17 @@
     }
     span {
       font-size: 0.8em;
+    }
+  }
+  .presta-banner {
+    display:flex;
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+    div {
+      border:solid 1px;
+      color: white;
+      width:100%;
     }
   }
 }
