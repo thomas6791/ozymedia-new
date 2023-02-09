@@ -4,7 +4,19 @@ footer {
   height: auto;
   min-height: 5em;
   margin-top: 2em;
+  height: 10em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   h2, h3, h4, p, a {
     color: white;
+  }
+  .inside {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  div.inside > div {
+    display: flex;
+    flex-direction: column;
   }
 }

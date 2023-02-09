@@ -1,12 +1,13 @@
 ---
 layout: post
 author: Thomas Hunckler
-poste : Expert SEO
+poste : Consultant SEO
 tags: ["seo"]
 lang: fr
 permalink: blog/structure-url-seo-racine-ou-non
 title: Url finale à la racine du site, quels impacts en terme de SEO ?
 titre: Url finale à la racine du site, quels impacts en terme de SEO ?
+comments: true
 ---
 Lors de la conception de son site, il peut arriver le cas où l'on se pose la question de l'intérêt d'avoir des **urls à la racine de son site** ou non et surtout dans quel cas ?\
 Certains CMS comme Prestashop ou Magento mettent par défaut les urls produits directement à la racine du site.\
