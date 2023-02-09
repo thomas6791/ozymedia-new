@@ -58,6 +58,21 @@
     }
     //header { margin-bottom: 2em; }
   }
+
+  .realisations-home {
+    div {
+      flex-direction: column;
+      img {
+        width: 100% !important;
+        margin: 0 !important;
+      }
+      p {
+        
+      }
+    }
+  }
+  
+
 }
 
 
