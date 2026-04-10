@@ -13,9 +13,7 @@ Lors de la conception de son site, il peut arriver le cas où l'on se pose la qu
 Certains CMS comme Prestashop ou Magento mettent par défaut les urls produits directement à la racine du site.\
 D'un point de vue SEO, cela peut entraîner des avantages et des inconvénients dans l'optimisation et le travail de son référencement naturel
 ## Est-ce qu'une url à la racine a moins de chance d'être bien positionée ?
-silos thématique\
-poids de l'url en SEO\
-sites ayant les urls à la racine
+
 ### Le poids des mots-clés dans l'url
 La présence de mots-clés présents dans les urls ont aujourd'hui très peu de poids dans le référencement des pages mais ces derniers peuvent toutefois jouer un rôle.\
 Il est préférable de travailler ces urls pour qu'elles soient compréhensibles et mémorisables pour les internautes et les moteurs de recherche.\
