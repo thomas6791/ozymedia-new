@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NSJKMRR');
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+     <link rel="stylesheet" href="../../../assets/css/styles.css">
+    <!-- For styles with static names... -->
+    <link href="{{ 'assets/css/styles.css' | relative_url }}" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    {% feed_meta %}
+    {% seo %}
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSJKMRR"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header>
+      <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/assets/images/banner4.jpg)";>
+        <div class="banner-text">
+          <h1>Ozymedia
+            <br>
+            <span>Agence web & seo</span>
+          </h1>
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+        <div class="presta-banner">
+          <div>
+            <img src="/assets/images/icones/home/site.png" width="110">
+            <h2>Site internet</h2>
+          </div>
+          <div>
+            <img src="/assets/images/icones/home/seo.png" width="110">
+            <h2>SEO</h2>
+          </div>
+          <div>
+            <img src="/assets/images/icones/home/ads.png" width="110">
+            <h2>Ads</h2></div>
+          <div>
+            <img src="/assets/images/icones/home/data.png" width="110">
+            <h2>Data & Tracking</h2></div>
+        </div>
+      </div>
+      {% include navigation.html %}
+      {% include navmobile.html %}
+    </header>
+    <main>
+      <article>
+        {{ content }}
+      </article>
+      {% include footer.html %}
+    </main>
+
+  </body>
+</html>
